@@ -59,9 +59,10 @@ a {
   color: var(--heavy-text-color);
 }
 
-/* Brand logo */
+/* Full logo sizing */
 .brand-logo {
-  height: 44px;
+  height: 46px;
+  width: auto;
   margin: 10px 0 10px;
 }
 
@@ -96,10 +97,13 @@ a {
   color: var(--inverse-text);
   font-size: 2.6rem;
   font-weight: 600;
+  line-height: 1;
 }
 
-.bookmark-span img {
-  height: 1.8rem;
+/* Pill icon sizing */
+.pill-logo {
+  height: 18px;
+  width: auto;
 }
 
 /* Store buttons */
@@ -152,6 +156,14 @@ a {
 
   .text-xxl {
     font-size: 3.2rem;
+  }
+
+  .brand-logo {
+    height: 38px;
+  }
+
+  .pill-logo {
+    height: 16px;
   }
 
   .hero-image {
