@@ -63,8 +63,7 @@ a {
 .hero-image {
   flex: 1;
   height: 650px;
-  /* Path to your phone mockup */
-  background-image: url("../assets/images/hero_pickz-image.png");
+  background-image: url("../images/hero_pickz-image.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
