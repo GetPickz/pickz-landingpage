@@ -64,7 +64,7 @@ a {
   flex: 1;
   height: 650px;
   /* Path to your phone mockup */
-  background-image: url("https://raw.githubusercontent.com/GetPickz/pickz-landingpage/main/assets/hero-mockup.png");
+  background-image: url("../assets/images/hero_pickz-image.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
