@@ -61,7 +61,7 @@ a {
 .hero-image {
   flex: 1;
   height: 650px;
-  background-image: url("https://raw.githubusercontent.com/GetPickz/pickz-landingpage/main/assets/hero-mockup.png");
+  background-image: url("../images/hero_pickz-image.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
