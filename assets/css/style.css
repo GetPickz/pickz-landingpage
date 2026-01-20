@@ -158,35 +158,28 @@ a {
 
 /* 6. Footer - Higher Placement & Links */
 .footer {
-  /* Reduced padding-bottom to prevent forced scrolling */
-  padding: 80px 24px 40px; 
+  /* Minimal padding to keep it visible without forcing a scrollbar */
+  padding: 40px 24px; 
   text-align: center;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
+  background: var(--bg-color);
 }
 
-.rights {
+.footer-text {
   color: var(--muted);
-  font-size: 0.9rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  flex-wrap: wrap;
+  font-size: 0.85rem;
+  letter-spacing: -0.01em;
 }
 
-.rights a {
+.footer-text a {
   color: var(--muted);
   text-decoration: none;
+  margin: 0 5px;
   transition: color 0.2s ease;
 }
 
-.rights a:hover {
+.footer-text a:hover {
   color: var(--brand-primary);
-}
-
-.footer-divider {
-  opacity: 0.3;
-  user-select: none;
 }
 
 /* 7. Mobile Adjustments */
