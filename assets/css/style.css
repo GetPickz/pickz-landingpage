@@ -158,36 +158,35 @@ a {
 
 /* 6. Footer - Higher Placement & Links */
 .footer {
-  padding: 120px 24px 60px; 
+  /* Reduced padding-bottom to prevent forced scrolling */
+  padding: 80px 24px 40px; 
+  text-align: center;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.footer-content {
-  text-align: center;
-}
-
-.footer-links {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 20px;
-}
-
-.footer-links a {
+.rights {
   color: var(--muted);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.rights a {
+  color: var(--muted);
+  text-decoration: none;
   transition: color 0.2s ease;
 }
 
-.footer-links a:hover {
-  color: var(--text-color);
+.rights a:hover {
+  color: var(--brand-primary);
 }
 
-.rights {
-  text-align: center;
-  color: var(--muted);
-  font-size: 0.95rem;
+.footer-divider {
+  opacity: 0.3;
+  user-select: none;
 }
 
 /* 7. Mobile Adjustments */
