@@ -156,9 +156,10 @@ a {
   font-weight: 600;
 }
 
+/* 6. Footer - Single Line & High Placement */
 .footer {
-  /* Minimal padding to keep it visible without forcing a scrollbar */
-  padding: 40px 24px; 
+  /* Reduced padding to 30px to stop the forced scrolling */
+  padding: 30px 24px; 
   text-align: center;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   background: var(--bg-color);
@@ -167,13 +168,15 @@ a {
 .footer-text {
   color: var(--muted);
   font-size: 0.85rem;
-  letter-spacing: -0.01em;
+  /* Ensures everything stays on one line and looks clean */
+  display: inline-block; 
 }
 
 .footer-text a {
   color: var(--muted);
   text-decoration: none;
-  margin: 0 5px;
+  /* Space around the links so they don't touch the dividers */
+  margin: 0 4px; 
   transition: color 0.2s ease;
 }
 
